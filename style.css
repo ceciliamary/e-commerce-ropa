@@ -1,0 +1,57 @@
+.header{
+  display: flex;
+  justify-content: center;
+}
+.logo-img{
+  width: 500px;
+  height: 500px;
+  justify-content: end;
+}
+
+.barra-navegacion{
+  display: flex;
+  justify-content:space-between;
+}
+
+.letra-bnvg{
+  line-height: 55px;
+  font-size: 30px;
+  width: 100px;
+  margin: 10px;
+}
+.contenedor{
+  flex-direction: row;
+}
+
+.producto{
+  display: flex;
+  flex-direction: row; 
+}
+
+.producto-blanco{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.img{
+height: 200px;
+width: 200px;
+}
+
+.barra-navegacion{
+  justify-content: center;
+}
+.redes-sociales{
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 300px;
+  align-items: center;
+}
+
+.enlace{
+  width: auto;
+}
